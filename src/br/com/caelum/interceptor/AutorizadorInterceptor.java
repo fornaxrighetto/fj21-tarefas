@@ -18,6 +18,7 @@ public class AutorizadorInterceptor extends HandlerInterceptorAdapter{
 		if(request.getSession().getAttribute("usuarioLogado") != null){
 			return true;
 		}
+		//Danilo
 		
 		response.sendRedirect("loginForm");
 		return false;

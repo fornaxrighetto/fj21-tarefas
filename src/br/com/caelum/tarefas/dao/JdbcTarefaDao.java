@@ -15,7 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import br.com.caelum.tarefas.modelo.Tarefa;
-//Lucas
+
 @Repository
 public class JdbcTarefaDao {
 	private final Connection connection;
